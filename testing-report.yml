@@ -1,0 +1,48 @@
+---
+- summary: |
+   Регистрация. Корректный email и пароль.
+  status: pass
+
+- summary: |
+   Регистрация. Пароль содержит только цифры.
+  status: fail
+
+- summary: |
+    Авторизация через Github
+  status: pass
+
+- summary: |
+    Авторизация с пустым email
+  status: pass
+
+- summary: |
+    Создание баттла. Выбор сложности.
+  status: pass
+
+- summary: |
+    Отмена созданного баттла
+  status: pass
+
+- summary: |
+    Сортировка таблицы лидеров по количеству игр
+  status: pass
+
+- summary: |
+    Просмотр баттла зрителем в режиме online
+  status: pass
+
+- summary: |
+    Просмотр истории баттлов
+  status: pass
+
+- summary: |
+    Переподключение участника к баттлу
+  status: pass
+
+- summary: |
+    Создание турнира. Предстоящая дата.
+  status: fail
+
+- summary: |
+    Присоединение к турниру
+  status: pass
